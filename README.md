@@ -1,7 +1,7 @@
 
 # YT_music_dl
 
-A in python written Youtube music downloader
+A Youtube music downloader written in python.
 
 # Installation:
 
