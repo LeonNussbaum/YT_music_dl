@@ -16,7 +16,7 @@ def dwl_vid():
         ydl.download([zxt])
 
 
-def getmuscinfo(url):
+def getmusicinfo(url):
 
     driver.get(url)
     sleep(5)
@@ -37,7 +37,7 @@ while True:
 
 
 for x in urls:
-    description = getmuscinfo(x)
+    description = getmusicinfo(x)
 
     ydl_opts = {
         'format': 'bestaudio/best',
